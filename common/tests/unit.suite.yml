@@ -1,0 +1,20 @@
+suite_namespace: common\tests\unit
+actor: UnitTester
+bootstrap: false
+modules:
+    enabled:
+        - Yii2:
+            part: fixtures
+        - MailCatcher
+    step_decorators: ~
+    config:
+        Module\MongoDbModule:
+            dns: "mongodb://127.0.0.1:27017/admy-unit-tester"
+            dump: "test/_data/db_test.js"
+            populate: true
+        Yii2:
+            configFile: "tests/config/unit.php"
+            part: init
+        MailCatcher:
+            url: "http://127.0.0.1"
+            port: "1080"

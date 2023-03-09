@@ -1,0 +1,26 @@
+# Codeception Test Suite Configuration
+#
+# Suite for unit or integration tests.
+
+actor: UnitTester
+modules:
+    enabled:
+        - Yii2
+        - Asserts
+        - MailCatcher
+        - \Helper\Unit
+        - Module\MongoDbModule
+        - Helper\MongoDbHelper
+    step_decorators: ~
+    config:
+        Module\MongoDbModule:
+            dsn: "mongodb://127.0.0.1:27017/admy_unit_tester"
+            dump: "tests/_data/test-db.js"
+            populate_once: "tests/_data/rbac-db.js"
+            populate: true
+        Yii2:
+            configFile: "tests/config/unit.php"
+            part: init
+        MailCatcher:
+            url: "http://127.0.0.1"
+            port: "1080"

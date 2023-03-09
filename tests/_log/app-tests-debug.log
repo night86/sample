@@ -1,0 +1,2574 @@
+2022-11-03 11:26:58 [-/-][bOYxwlA6][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Lib\Connector\Yii2.php:299
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Module\Yii2.php:321
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Subscriber\Module.php:56
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:230
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:59
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\DispatcherWrapper.php:22
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:136
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:105
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\phpunit\phpunit\src\Framework\TestResult.php:424
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Test\Test.php:80
+2022-11-03 11:26:57 [-/-][bOYxwlA6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'BIN_TARGET' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'COMPOSER_RUNTIME_BIN_DIR' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\'
+    'PROMPT' => '$P$G'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Matias\\AppData\\Local\\JetBrains\\PhpStorm2021.2\\terminal\\history\\api-history'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'APPDATA' => 'C:\\Users\\Matias\\AppData\\Roaming'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'LOCALAPPDATA' => 'C:\\Users\\Matias\\AppData\\Local'
+    'ProgramData' => 'C:\\ProgramData'
+    'COMPUTERNAME' => 'DESKTOP-MATT'
+    'VBOX_HWVIRTEX_IGNORE_SVM_IN_USE' => '1'
+    'SystemDrive' => 'C:'
+    'USERDOMAIN' => 'DESKTOP-MATT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'OneDrive' => 'C:\\Users\\Matias\\OneDrive'
+    'TMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HOMEPATH' => '\\Users\\Matias'
+    'TEMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'LOGONSERVER' => '\\\\DESKTOP-MATT'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles' => 'C:\\Program Files'
+    'HOMEDRIVE' => 'C:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'windir' => 'C:\\WINDOWS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-MATT'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'Path' => 'C:\\Ruby26-x64\\bin;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp7.4\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\dotnet\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\WireGuard\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Matias\\AppData\\Roaming\\npm;C:\\Users\\Matias\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Matias\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Matias\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\MongoDB\\Server\\4.4\\bin;'
+    'PROCESSOR_LEVEL' => '23'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'NUMBER_OF_PROCESSORS' => '16'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\WINDOWS\\System32'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_REVISION' => '0101'
+    'OS' => 'Windows_NT'
+    'USERPROFILE' => 'C:\\Users\\Matias'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERNAME' => 'Matias'
+    'ProgramW6432' => 'C:\\Program Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'TERM_SESSION_ID' => '69152eaa-cd84-4381-89c4-aa4f89fa23ac'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'PSModulePath' => 'C:\\Users\\Matias\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW;.CPL'
+    'PHP_SELF' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'SCRIPT_NAME' => '/index-test.php'
+    'SCRIPT_FILENAME' => 'index-test.php'
+    'PATH_TRANSLATED' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1667471217.6453
+    'REQUEST_TIME' => 1667471217
+    'argv' => [
+        0 => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+        1 => 'run'
+        2 => '-n'
+        3 => '-d'
+        4 => 'unit'
+        5 => 'EmailSenderTaskCest'
+    ]
+    'argc' => 6
+    'SHELL_VERBOSITY' => 0
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'HTTPS' => false
+]
+2022-11-04 11:25:25 [-/-][YGem5IE9][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Lib\Connector\Yii2.php:299
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Module\Yii2.php:321
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Subscriber\Module.php:56
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:230
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:59
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\DispatcherWrapper.php:22
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:136
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:105
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\phpunit\phpunit\src\Framework\TestResult.php:424
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Test\Test.php:80
+2022-11-04 11:25:24 [-/-][YGem5IE9][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'BIN_TARGET' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'COMPOSER_RUNTIME_BIN_DIR' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\'
+    'PROMPT' => '$P$G'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Matias\\AppData\\Local\\JetBrains\\PhpStorm2021.2\\terminal\\history\\api-history'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'APPDATA' => 'C:\\Users\\Matias\\AppData\\Roaming'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'LOCALAPPDATA' => 'C:\\Users\\Matias\\AppData\\Local'
+    'ProgramData' => 'C:\\ProgramData'
+    'COMPUTERNAME' => 'DESKTOP-MATT'
+    'VBOX_HWVIRTEX_IGNORE_SVM_IN_USE' => '1'
+    'SystemDrive' => 'C:'
+    'USERDOMAIN' => 'DESKTOP-MATT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'OneDrive' => 'C:\\Users\\Matias\\OneDrive'
+    'TMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HOMEPATH' => '\\Users\\Matias'
+    'TEMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'LOGONSERVER' => '\\\\DESKTOP-MATT'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles' => 'C:\\Program Files'
+    'HOMEDRIVE' => 'C:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'windir' => 'C:\\WINDOWS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-MATT'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'Path' => 'C:\\Ruby26-x64\\bin;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp7.4\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\dotnet\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\WireGuard\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Matias\\AppData\\Roaming\\npm;C:\\Users\\Matias\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Matias\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Matias\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\MongoDB\\Server\\4.4\\bin;'
+    'PROCESSOR_LEVEL' => '23'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'NUMBER_OF_PROCESSORS' => '16'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\WINDOWS\\System32'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_REVISION' => '0101'
+    'OS' => 'Windows_NT'
+    'USERPROFILE' => 'C:\\Users\\Matias'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERNAME' => 'Matias'
+    'ProgramW6432' => 'C:\\Program Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'TERM_SESSION_ID' => 'c222b6ce-df2d-4ebc-9341-8eb0f6cae0ae'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'PSModulePath' => 'C:\\Users\\Matias\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW;.CPL'
+    'PHP_SELF' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'SCRIPT_NAME' => '/index-test.php'
+    'SCRIPT_FILENAME' => 'index-test.php'
+    'PATH_TRANSLATED' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1667557524.5991
+    'REQUEST_TIME' => 1667557524
+    'argv' => [
+        0 => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+        1 => 'run'
+        2 => '-n'
+        3 => '-d'
+        4 => 'unit'
+        5 => 'EmailSenderTaskCest'
+    ]
+    'argc' => 6
+    'SHELL_VERBOSITY' => 0
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'HTTPS' => false
+]
+2022-11-04 11:27:07 [-/-][g_5SIkda][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Lib\Connector\Yii2.php:299
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Module\Yii2.php:321
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Subscriber\Module.php:56
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:230
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:59
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\DispatcherWrapper.php:22
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:136
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:105
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\phpunit\phpunit\src\Framework\TestResult.php:424
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Test\Test.php:80
+2022-11-04 11:27:06 [-/-][g_5SIkda][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'BIN_TARGET' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'COMPOSER_RUNTIME_BIN_DIR' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\'
+    'PROMPT' => '$P$G'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Matias\\AppData\\Local\\JetBrains\\PhpStorm2021.2\\terminal\\history\\api-history'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'APPDATA' => 'C:\\Users\\Matias\\AppData\\Roaming'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'LOCALAPPDATA' => 'C:\\Users\\Matias\\AppData\\Local'
+    'ProgramData' => 'C:\\ProgramData'
+    'COMPUTERNAME' => 'DESKTOP-MATT'
+    'VBOX_HWVIRTEX_IGNORE_SVM_IN_USE' => '1'
+    'SystemDrive' => 'C:'
+    'USERDOMAIN' => 'DESKTOP-MATT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'OneDrive' => 'C:\\Users\\Matias\\OneDrive'
+    'TMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HOMEPATH' => '\\Users\\Matias'
+    'TEMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'LOGONSERVER' => '\\\\DESKTOP-MATT'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles' => 'C:\\Program Files'
+    'HOMEDRIVE' => 'C:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'windir' => 'C:\\WINDOWS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-MATT'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'Path' => 'C:\\Ruby26-x64\\bin;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp7.4\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\dotnet\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\WireGuard\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Matias\\AppData\\Roaming\\npm;C:\\Users\\Matias\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Matias\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Matias\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\MongoDB\\Server\\4.4\\bin;'
+    'PROCESSOR_LEVEL' => '23'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'NUMBER_OF_PROCESSORS' => '16'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\WINDOWS\\System32'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_REVISION' => '0101'
+    'OS' => 'Windows_NT'
+    'USERPROFILE' => 'C:\\Users\\Matias'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERNAME' => 'Matias'
+    'ProgramW6432' => 'C:\\Program Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'TERM_SESSION_ID' => 'c222b6ce-df2d-4ebc-9341-8eb0f6cae0ae'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'PSModulePath' => 'C:\\Users\\Matias\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW;.CPL'
+    'PHP_SELF' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'SCRIPT_NAME' => '/index-test.php'
+    'SCRIPT_FILENAME' => 'index-test.php'
+    'PATH_TRANSLATED' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1667557626.2149
+    'REQUEST_TIME' => 1667557626
+    'argv' => [
+        0 => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+        1 => 'run'
+        2 => '-n'
+        3 => '-d'
+        4 => 'unit'
+        5 => 'EmailSenderTaskCest'
+    ]
+    'argc' => 6
+    'SHELL_VERBOSITY' => 0
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'HTTPS' => false
+]
+2022-11-04 11:30:25 [-/-][tHFXYN71][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Lib\Connector\Yii2.php:299
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Module\Yii2.php:321
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Subscriber\Module.php:56
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:230
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:59
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\DispatcherWrapper.php:22
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:136
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:105
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\phpunit\phpunit\src\Framework\TestResult.php:424
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Test\Test.php:80
+2022-11-04 11:30:24 [-/-][tHFXYN71][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'BIN_TARGET' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'COMPOSER_RUNTIME_BIN_DIR' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\'
+    'PROMPT' => '$P$G'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Matias\\AppData\\Local\\JetBrains\\PhpStorm2021.2\\terminal\\history\\api-history'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'APPDATA' => 'C:\\Users\\Matias\\AppData\\Roaming'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'LOCALAPPDATA' => 'C:\\Users\\Matias\\AppData\\Local'
+    'ProgramData' => 'C:\\ProgramData'
+    'COMPUTERNAME' => 'DESKTOP-MATT'
+    'VBOX_HWVIRTEX_IGNORE_SVM_IN_USE' => '1'
+    'SystemDrive' => 'C:'
+    'USERDOMAIN' => 'DESKTOP-MATT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'OneDrive' => 'C:\\Users\\Matias\\OneDrive'
+    'TMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HOMEPATH' => '\\Users\\Matias'
+    'TEMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'LOGONSERVER' => '\\\\DESKTOP-MATT'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles' => 'C:\\Program Files'
+    'HOMEDRIVE' => 'C:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'windir' => 'C:\\WINDOWS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-MATT'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'Path' => 'C:\\Ruby26-x64\\bin;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp7.4\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\dotnet\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\WireGuard\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Matias\\AppData\\Roaming\\npm;C:\\Users\\Matias\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Matias\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Matias\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\MongoDB\\Server\\4.4\\bin;'
+    'PROCESSOR_LEVEL' => '23'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'NUMBER_OF_PROCESSORS' => '16'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\WINDOWS\\System32'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_REVISION' => '0101'
+    'OS' => 'Windows_NT'
+    'USERPROFILE' => 'C:\\Users\\Matias'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERNAME' => 'Matias'
+    'ProgramW6432' => 'C:\\Program Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'TERM_SESSION_ID' => 'c222b6ce-df2d-4ebc-9341-8eb0f6cae0ae'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'PSModulePath' => 'C:\\Users\\Matias\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW;.CPL'
+    'PHP_SELF' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'SCRIPT_NAME' => '/index-test.php'
+    'SCRIPT_FILENAME' => 'index-test.php'
+    'PATH_TRANSLATED' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1667557824.8352
+    'REQUEST_TIME' => 1667557824
+    'argv' => [
+        0 => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+        1 => 'run'
+        2 => '-n'
+        3 => '-d'
+        4 => 'unit'
+        5 => 'EmailSenderTaskCest'
+    ]
+    'argc' => 6
+    'SHELL_VERBOSITY' => 0
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'HTTPS' => false
+]
+2022-11-04 11:36:41 [-/-][CH17Kpf6][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Lib\Connector\Yii2.php:299
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Module\Yii2.php:321
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Subscriber\Module.php:56
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:230
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:59
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\DispatcherWrapper.php:22
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:136
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:105
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\phpunit\phpunit\src\Framework\TestResult.php:424
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Test\Test.php:80
+2022-11-04 11:36:40 [-/-][CH17Kpf6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'BIN_TARGET' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'COMPOSER_RUNTIME_BIN_DIR' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\'
+    'PROMPT' => '$P$G'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Matias\\AppData\\Local\\JetBrains\\PhpStorm2021.2\\terminal\\history\\api-history'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'APPDATA' => 'C:\\Users\\Matias\\AppData\\Roaming'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'LOCALAPPDATA' => 'C:\\Users\\Matias\\AppData\\Local'
+    'ProgramData' => 'C:\\ProgramData'
+    'COMPUTERNAME' => 'DESKTOP-MATT'
+    'VBOX_HWVIRTEX_IGNORE_SVM_IN_USE' => '1'
+    'SystemDrive' => 'C:'
+    'USERDOMAIN' => 'DESKTOP-MATT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'OneDrive' => 'C:\\Users\\Matias\\OneDrive'
+    'TMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HOMEPATH' => '\\Users\\Matias'
+    'TEMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'LOGONSERVER' => '\\\\DESKTOP-MATT'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles' => 'C:\\Program Files'
+    'HOMEDRIVE' => 'C:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'windir' => 'C:\\WINDOWS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-MATT'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'Path' => 'C:\\Ruby26-x64\\bin;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp7.4\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\dotnet\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\WireGuard\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Matias\\AppData\\Roaming\\npm;C:\\Users\\Matias\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Matias\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Matias\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\MongoDB\\Server\\4.4\\bin;'
+    'PROCESSOR_LEVEL' => '23'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'NUMBER_OF_PROCESSORS' => '16'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\WINDOWS\\System32'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_REVISION' => '0101'
+    'OS' => 'Windows_NT'
+    'USERPROFILE' => 'C:\\Users\\Matias'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERNAME' => 'Matias'
+    'ProgramW6432' => 'C:\\Program Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'TERM_SESSION_ID' => 'c222b6ce-df2d-4ebc-9341-8eb0f6cae0ae'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'PSModulePath' => 'C:\\Users\\Matias\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW;.CPL'
+    'PHP_SELF' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'SCRIPT_NAME' => '/index-test.php'
+    'SCRIPT_FILENAME' => 'index-test.php'
+    'PATH_TRANSLATED' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1667558200.2945
+    'REQUEST_TIME' => 1667558200
+    'argv' => [
+        0 => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+        1 => 'run'
+        2 => '-n'
+        3 => '-d'
+        4 => 'unit'
+        5 => 'EmailSenderTaskCest'
+    ]
+    'argc' => 6
+    'SHELL_VERBOSITY' => 0
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'HTTPS' => false
+]
+2022-11-04 11:48:09 [-/-][F5jHsnK9][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Lib\Connector\Yii2.php:299
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Module\Yii2.php:321
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Subscriber\Module.php:56
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:230
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:59
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\DispatcherWrapper.php:22
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:136
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:105
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\phpunit\phpunit\src\Framework\TestResult.php:424
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Test\Test.php:80
+2022-11-04 11:48:08 [-/-][F5jHsnK9][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'BIN_TARGET' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'COMPOSER_RUNTIME_BIN_DIR' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\'
+    'PROMPT' => '$P$G'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Matias\\AppData\\Local\\JetBrains\\PhpStorm2021.2\\terminal\\history\\api-history'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'APPDATA' => 'C:\\Users\\Matias\\AppData\\Roaming'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'LOCALAPPDATA' => 'C:\\Users\\Matias\\AppData\\Local'
+    'ProgramData' => 'C:\\ProgramData'
+    'COMPUTERNAME' => 'DESKTOP-MATT'
+    'VBOX_HWVIRTEX_IGNORE_SVM_IN_USE' => '1'
+    'SystemDrive' => 'C:'
+    'USERDOMAIN' => 'DESKTOP-MATT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'OneDrive' => 'C:\\Users\\Matias\\OneDrive'
+    'TMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HOMEPATH' => '\\Users\\Matias'
+    'TEMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'LOGONSERVER' => '\\\\DESKTOP-MATT'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles' => 'C:\\Program Files'
+    'HOMEDRIVE' => 'C:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'windir' => 'C:\\WINDOWS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-MATT'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'Path' => 'C:\\Ruby26-x64\\bin;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp7.4\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\dotnet\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\WireGuard\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Matias\\AppData\\Roaming\\npm;C:\\Users\\Matias\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Matias\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Matias\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\MongoDB\\Server\\4.4\\bin;'
+    'PROCESSOR_LEVEL' => '23'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'NUMBER_OF_PROCESSORS' => '16'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\WINDOWS\\System32'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_REVISION' => '0101'
+    'OS' => 'Windows_NT'
+    'USERPROFILE' => 'C:\\Users\\Matias'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERNAME' => 'Matias'
+    'ProgramW6432' => 'C:\\Program Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'TERM_SESSION_ID' => 'c222b6ce-df2d-4ebc-9341-8eb0f6cae0ae'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'PSModulePath' => 'C:\\Users\\Matias\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW;.CPL'
+    'PHP_SELF' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'SCRIPT_NAME' => '/index-test.php'
+    'SCRIPT_FILENAME' => 'index-test.php'
+    'PATH_TRANSLATED' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1667558888.8645
+    'REQUEST_TIME' => 1667558888
+    'argv' => [
+        0 => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+        1 => 'run'
+        2 => '-n'
+        3 => '-d'
+        4 => 'unit'
+        5 => 'EmailSenderTaskCest'
+    ]
+    'argc' => 6
+    'SHELL_VERBOSITY' => 0
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'HTTPS' => false
+]
+2022-11-04 12:18:01 [-/-][hvXhEdBn][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Lib\Connector\Yii2.php:299
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Module\Yii2.php:321
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Subscriber\Module.php:56
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:230
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:59
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\DispatcherWrapper.php:22
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:136
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:105
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\phpunit\phpunit\src\Framework\TestResult.php:424
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Test\Test.php:80
+2022-11-04 12:18:01 [-/-][hvXhEdBn][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'BIN_TARGET' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'COMPOSER_RUNTIME_BIN_DIR' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\'
+    'PROMPT' => '$P$G'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Matias\\AppData\\Local\\JetBrains\\PhpStorm2021.2\\terminal\\history\\api-history'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'APPDATA' => 'C:\\Users\\Matias\\AppData\\Roaming'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'LOCALAPPDATA' => 'C:\\Users\\Matias\\AppData\\Local'
+    'ProgramData' => 'C:\\ProgramData'
+    'COMPUTERNAME' => 'DESKTOP-MATT'
+    'VBOX_HWVIRTEX_IGNORE_SVM_IN_USE' => '1'
+    'SystemDrive' => 'C:'
+    'USERDOMAIN' => 'DESKTOP-MATT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'OneDrive' => 'C:\\Users\\Matias\\OneDrive'
+    'TMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HOMEPATH' => '\\Users\\Matias'
+    'TEMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'LOGONSERVER' => '\\\\DESKTOP-MATT'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles' => 'C:\\Program Files'
+    'HOMEDRIVE' => 'C:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'windir' => 'C:\\WINDOWS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-MATT'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'Path' => 'C:\\Ruby26-x64\\bin;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp7.4\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\dotnet\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\WireGuard\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Matias\\AppData\\Roaming\\npm;C:\\Users\\Matias\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Matias\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Matias\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\MongoDB\\Server\\4.4\\bin;'
+    'PROCESSOR_LEVEL' => '23'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'NUMBER_OF_PROCESSORS' => '16'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\WINDOWS\\System32'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_REVISION' => '0101'
+    'OS' => 'Windows_NT'
+    'USERPROFILE' => 'C:\\Users\\Matias'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERNAME' => 'Matias'
+    'ProgramW6432' => 'C:\\Program Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'TERM_SESSION_ID' => 'c222b6ce-df2d-4ebc-9341-8eb0f6cae0ae'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'PSModulePath' => 'C:\\Users\\Matias\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW;.CPL'
+    'PHP_SELF' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'SCRIPT_NAME' => '/index-test.php'
+    'SCRIPT_FILENAME' => 'index-test.php'
+    'PATH_TRANSLATED' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1667560681.0816
+    'REQUEST_TIME' => 1667560681
+    'argv' => [
+        0 => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+        1 => 'run'
+        2 => '-n'
+        3 => '-d'
+        4 => 'unit'
+        5 => 'EmailSenderTaskCest'
+    ]
+    'argc' => 6
+    'SHELL_VERBOSITY' => 0
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'HTTPS' => false
+]
+2022-11-04 12:20:54 [-/-][m6a21NOg][trace][yii\base\Application::bootstrap] Bootstrap with filsh\yii2\oauth2server\Bootstrap::bootstrap()
+2022-11-04 12:20:54 [-/-][m6a21NOg][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Lib\Connector\Yii2.php:299
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Module\Yii2.php:321
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Subscriber\Module.php:56
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:230
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:59
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\DispatcherWrapper.php:22
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:136
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:105
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\phpunit\phpunit\src\Framework\TestResult.php:424
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Test\Test.php:80
+2022-11-04 12:20:53 [-/-][m6a21NOg][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'BIN_TARGET' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'COMPOSER_RUNTIME_BIN_DIR' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\'
+    'PROMPT' => '$P$G'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Matias\\AppData\\Local\\JetBrains\\PhpStorm2021.2\\terminal\\history\\api-history'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'APPDATA' => 'C:\\Users\\Matias\\AppData\\Roaming'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'LOCALAPPDATA' => 'C:\\Users\\Matias\\AppData\\Local'
+    'ProgramData' => 'C:\\ProgramData'
+    'COMPUTERNAME' => 'DESKTOP-MATT'
+    'VBOX_HWVIRTEX_IGNORE_SVM_IN_USE' => '1'
+    'SystemDrive' => 'C:'
+    'USERDOMAIN' => 'DESKTOP-MATT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'OneDrive' => 'C:\\Users\\Matias\\OneDrive'
+    'TMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HOMEPATH' => '\\Users\\Matias'
+    'TEMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'LOGONSERVER' => '\\\\DESKTOP-MATT'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles' => 'C:\\Program Files'
+    'HOMEDRIVE' => 'C:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'windir' => 'C:\\WINDOWS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-MATT'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'Path' => 'C:\\Ruby26-x64\\bin;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp7.4\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\dotnet\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\WireGuard\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Matias\\AppData\\Roaming\\npm;C:\\Users\\Matias\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Matias\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Matias\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\MongoDB\\Server\\4.4\\bin;'
+    'PROCESSOR_LEVEL' => '23'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'NUMBER_OF_PROCESSORS' => '16'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\WINDOWS\\System32'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_REVISION' => '0101'
+    'OS' => 'Windows_NT'
+    'USERPROFILE' => 'C:\\Users\\Matias'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERNAME' => 'Matias'
+    'ProgramW6432' => 'C:\\Program Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'TERM_SESSION_ID' => 'c222b6ce-df2d-4ebc-9341-8eb0f6cae0ae'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'PSModulePath' => 'C:\\Users\\Matias\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW;.CPL'
+    'PHP_SELF' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'SCRIPT_NAME' => '/index-test.php'
+    'SCRIPT_FILENAME' => 'index-test.php'
+    'PATH_TRANSLATED' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1667560853.4144
+    'REQUEST_TIME' => 1667560853
+    'argv' => [
+        0 => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+        1 => 'run'
+        2 => '-n'
+        3 => '-d'
+        4 => 'unit'
+        5 => 'EmailSenderTaskCest'
+    ]
+    'argc' => 6
+    'SHELL_VERBOSITY' => 0
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'HTTPS' => false
+]
+2022-11-04 12:21:42 [-/-][PxiG-DfW][trace][yii\base\Application::bootstrap] Bootstrap with filsh\yii2\oauth2server\Bootstrap::bootstrap()
+2022-11-04 12:21:42 [-/-][PxiG-DfW][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Lib\Connector\Yii2.php:299
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Module\Yii2.php:321
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Subscriber\Module.php:56
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:230
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:59
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\DispatcherWrapper.php:22
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:136
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:105
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\phpunit\phpunit\src\Framework\TestResult.php:424
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Test\Test.php:80
+2022-11-04 12:21:41 [-/-][PxiG-DfW][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'BIN_TARGET' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'COMPOSER_RUNTIME_BIN_DIR' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\'
+    'PROMPT' => '$P$G'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Matias\\AppData\\Local\\JetBrains\\PhpStorm2021.2\\terminal\\history\\api-history'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'APPDATA' => 'C:\\Users\\Matias\\AppData\\Roaming'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'LOCALAPPDATA' => 'C:\\Users\\Matias\\AppData\\Local'
+    'ProgramData' => 'C:\\ProgramData'
+    'COMPUTERNAME' => 'DESKTOP-MATT'
+    'VBOX_HWVIRTEX_IGNORE_SVM_IN_USE' => '1'
+    'SystemDrive' => 'C:'
+    'USERDOMAIN' => 'DESKTOP-MATT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'OneDrive' => 'C:\\Users\\Matias\\OneDrive'
+    'TMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HOMEPATH' => '\\Users\\Matias'
+    'TEMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'LOGONSERVER' => '\\\\DESKTOP-MATT'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles' => 'C:\\Program Files'
+    'HOMEDRIVE' => 'C:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'windir' => 'C:\\WINDOWS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-MATT'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'Path' => 'C:\\Ruby26-x64\\bin;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp7.4\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\dotnet\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\WireGuard\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Matias\\AppData\\Roaming\\npm;C:\\Users\\Matias\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Matias\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Matias\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\MongoDB\\Server\\4.4\\bin;'
+    'PROCESSOR_LEVEL' => '23'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'NUMBER_OF_PROCESSORS' => '16'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\WINDOWS\\System32'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_REVISION' => '0101'
+    'OS' => 'Windows_NT'
+    'USERPROFILE' => 'C:\\Users\\Matias'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERNAME' => 'Matias'
+    'ProgramW6432' => 'C:\\Program Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'TERM_SESSION_ID' => 'c222b6ce-df2d-4ebc-9341-8eb0f6cae0ae'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'PSModulePath' => 'C:\\Users\\Matias\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW;.CPL'
+    'PHP_SELF' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'SCRIPT_NAME' => '/index-test.php'
+    'SCRIPT_FILENAME' => 'index-test.php'
+    'PATH_TRANSLATED' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1667560901.6497
+    'REQUEST_TIME' => 1667560901
+    'argv' => [
+        0 => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+        1 => 'run'
+        2 => '-n'
+        3 => '-d'
+        4 => 'unit'
+        5 => 'EmailSenderTaskCest'
+    ]
+    'argc' => 6
+    'SHELL_VERBOSITY' => 0
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'HTTPS' => false
+]
+2022-11-04 12:23:14 [-/-][vq74ZF1s][trace][yii\base\Application::bootstrap] Bootstrap with filsh\yii2\oauth2server\Bootstrap::bootstrap()
+2022-11-04 12:23:14 [-/-][vq74ZF1s][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Lib\Connector\Yii2.php:299
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Module\Yii2.php:321
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Subscriber\Module.php:56
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:230
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:59
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\DispatcherWrapper.php:22
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:136
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:105
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\phpunit\phpunit\src\Framework\TestResult.php:424
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Test\Test.php:80
+2022-11-04 12:23:13 [-/-][vq74ZF1s][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'BIN_TARGET' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'COMPOSER_RUNTIME_BIN_DIR' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\'
+    'PROMPT' => '$P$G'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Matias\\AppData\\Local\\JetBrains\\PhpStorm2021.2\\terminal\\history\\api-history'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'APPDATA' => 'C:\\Users\\Matias\\AppData\\Roaming'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'LOCALAPPDATA' => 'C:\\Users\\Matias\\AppData\\Local'
+    'ProgramData' => 'C:\\ProgramData'
+    'COMPUTERNAME' => 'DESKTOP-MATT'
+    'VBOX_HWVIRTEX_IGNORE_SVM_IN_USE' => '1'
+    'SystemDrive' => 'C:'
+    'USERDOMAIN' => 'DESKTOP-MATT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'OneDrive' => 'C:\\Users\\Matias\\OneDrive'
+    'TMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HOMEPATH' => '\\Users\\Matias'
+    'TEMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'LOGONSERVER' => '\\\\DESKTOP-MATT'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles' => 'C:\\Program Files'
+    'HOMEDRIVE' => 'C:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'windir' => 'C:\\WINDOWS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-MATT'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'Path' => 'C:\\Ruby26-x64\\bin;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp7.4\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\dotnet\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\WireGuard\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Matias\\AppData\\Roaming\\npm;C:\\Users\\Matias\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Matias\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Matias\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\MongoDB\\Server\\4.4\\bin;'
+    'PROCESSOR_LEVEL' => '23'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'NUMBER_OF_PROCESSORS' => '16'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\WINDOWS\\System32'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_REVISION' => '0101'
+    'OS' => 'Windows_NT'
+    'USERPROFILE' => 'C:\\Users\\Matias'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERNAME' => 'Matias'
+    'ProgramW6432' => 'C:\\Program Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'TERM_SESSION_ID' => 'c222b6ce-df2d-4ebc-9341-8eb0f6cae0ae'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'PSModulePath' => 'C:\\Users\\Matias\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW;.CPL'
+    'PHP_SELF' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'SCRIPT_NAME' => '/index-test.php'
+    'SCRIPT_FILENAME' => 'index-test.php'
+    'PATH_TRANSLATED' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1667560993.3436
+    'REQUEST_TIME' => 1667560993
+    'argv' => [
+        0 => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+        1 => 'run'
+        2 => '-n'
+        3 => '-d'
+        4 => 'unit'
+        5 => 'EmailSenderTaskCest'
+    ]
+    'argc' => 6
+    'SHELL_VERBOSITY' => 0
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'HTTPS' => false
+]
+2022-11-04 13:03:10 [-/-][Qw_iemIx][trace][yii\base\Application::bootstrap] Bootstrap with filsh\yii2\oauth2server\Bootstrap::bootstrap()
+2022-11-04 13:03:10 [-/-][Qw_iemIx][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Lib\Connector\Yii2.php:299
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Module\Yii2.php:321
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Subscriber\Module.php:56
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:230
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:59
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\DispatcherWrapper.php:22
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:136
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:105
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\phpunit\phpunit\src\Framework\TestResult.php:424
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Test\Test.php:80
+2022-11-04 13:03:09 [-/-][Qw_iemIx][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'BIN_TARGET' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'COMPOSER_RUNTIME_BIN_DIR' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\'
+    'PROMPT' => '$P$G'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Matias\\AppData\\Local\\JetBrains\\PhpStorm2021.2\\terminal\\history\\api-history'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'APPDATA' => 'C:\\Users\\Matias\\AppData\\Roaming'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'LOCALAPPDATA' => 'C:\\Users\\Matias\\AppData\\Local'
+    'ProgramData' => 'C:\\ProgramData'
+    'COMPUTERNAME' => 'DESKTOP-MATT'
+    'VBOX_HWVIRTEX_IGNORE_SVM_IN_USE' => '1'
+    'SystemDrive' => 'C:'
+    'USERDOMAIN' => 'DESKTOP-MATT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'OneDrive' => 'C:\\Users\\Matias\\OneDrive'
+    'TMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HOMEPATH' => '\\Users\\Matias'
+    'TEMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'LOGONSERVER' => '\\\\DESKTOP-MATT'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles' => 'C:\\Program Files'
+    'HOMEDRIVE' => 'C:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'windir' => 'C:\\WINDOWS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-MATT'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'Path' => 'C:\\Ruby26-x64\\bin;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp7.4\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\dotnet\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\WireGuard\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Matias\\AppData\\Roaming\\npm;C:\\Users\\Matias\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Matias\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Matias\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\MongoDB\\Server\\4.4\\bin;'
+    'PROCESSOR_LEVEL' => '23'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'NUMBER_OF_PROCESSORS' => '16'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\WINDOWS\\System32'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_REVISION' => '0101'
+    'OS' => 'Windows_NT'
+    'USERPROFILE' => 'C:\\Users\\Matias'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERNAME' => 'Matias'
+    'ProgramW6432' => 'C:\\Program Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'TERM_SESSION_ID' => 'c222b6ce-df2d-4ebc-9341-8eb0f6cae0ae'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'PSModulePath' => 'C:\\Users\\Matias\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW;.CPL'
+    'PHP_SELF' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'SCRIPT_NAME' => '/index-test.php'
+    'SCRIPT_FILENAME' => 'index-test.php'
+    'PATH_TRANSLATED' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1667563389.5248
+    'REQUEST_TIME' => 1667563389
+    'argv' => [
+        0 => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+        1 => 'run'
+        2 => '-n'
+        3 => '-d'
+        4 => 'unit'
+        5 => 'EmailSenderTaskCest'
+    ]
+    'argc' => 6
+    'SHELL_VERBOSITY' => 0
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'HTTPS' => false
+]
+2022-11-04 13:04:54 [-/-][JR0zkpVt][trace][yii\base\Application::bootstrap] Bootstrap with filsh\yii2\oauth2server\Bootstrap::bootstrap()
+2022-11-04 13:04:54 [-/-][JR0zkpVt][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Lib\Connector\Yii2.php:299
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Module\Yii2.php:321
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Subscriber\Module.php:56
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:230
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:59
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\DispatcherWrapper.php:22
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:136
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:105
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\phpunit\phpunit\src\Framework\TestResult.php:424
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Test\Test.php:80
+2022-11-04 13:04:53 [-/-][JR0zkpVt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'BIN_TARGET' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'COMPOSER_RUNTIME_BIN_DIR' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\'
+    'PROMPT' => '$P$G'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Matias\\AppData\\Local\\JetBrains\\PhpStorm2021.2\\terminal\\history\\api-history'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'APPDATA' => 'C:\\Users\\Matias\\AppData\\Roaming'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'LOCALAPPDATA' => 'C:\\Users\\Matias\\AppData\\Local'
+    'ProgramData' => 'C:\\ProgramData'
+    'COMPUTERNAME' => 'DESKTOP-MATT'
+    'VBOX_HWVIRTEX_IGNORE_SVM_IN_USE' => '1'
+    'SystemDrive' => 'C:'
+    'USERDOMAIN' => 'DESKTOP-MATT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'OneDrive' => 'C:\\Users\\Matias\\OneDrive'
+    'TMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HOMEPATH' => '\\Users\\Matias'
+    'TEMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'LOGONSERVER' => '\\\\DESKTOP-MATT'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles' => 'C:\\Program Files'
+    'HOMEDRIVE' => 'C:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'windir' => 'C:\\WINDOWS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-MATT'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'Path' => 'C:\\Ruby26-x64\\bin;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp7.4\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\dotnet\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\WireGuard\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Matias\\AppData\\Roaming\\npm;C:\\Users\\Matias\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Matias\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Matias\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\MongoDB\\Server\\4.4\\bin;'
+    'PROCESSOR_LEVEL' => '23'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'NUMBER_OF_PROCESSORS' => '16'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\WINDOWS\\System32'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_REVISION' => '0101'
+    'OS' => 'Windows_NT'
+    'USERPROFILE' => 'C:\\Users\\Matias'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERNAME' => 'Matias'
+    'ProgramW6432' => 'C:\\Program Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'TERM_SESSION_ID' => 'c222b6ce-df2d-4ebc-9341-8eb0f6cae0ae'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'PSModulePath' => 'C:\\Users\\Matias\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW;.CPL'
+    'PHP_SELF' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'SCRIPT_NAME' => '/index-test.php'
+    'SCRIPT_FILENAME' => 'index-test.php'
+    'PATH_TRANSLATED' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1667563493.4347
+    'REQUEST_TIME' => 1667563493
+    'argv' => [
+        0 => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+        1 => 'run'
+        2 => '-n'
+        3 => '-d'
+        4 => 'unit'
+        5 => 'EmailSenderTaskCest'
+    ]
+    'argc' => 6
+    'SHELL_VERBOSITY' => 0
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'HTTPS' => false
+]
+2022-11-04 13:16:09 [-/-][Xbmg_Mc0][trace][yii\base\Application::bootstrap] Bootstrap with filsh\yii2\oauth2server\Bootstrap::bootstrap()
+2022-11-04 13:16:09 [-/-][Xbmg_Mc0][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Lib\Connector\Yii2.php:299
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Module\Yii2.php:321
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Subscriber\Module.php:56
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:230
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:59
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\DispatcherWrapper.php:22
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:136
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:105
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\phpunit\phpunit\src\Framework\TestResult.php:424
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Test\Test.php:80
+2022-11-04 13:16:08 [-/-][Xbmg_Mc0][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'BIN_TARGET' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'COMPOSER_RUNTIME_BIN_DIR' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\'
+    'PROMPT' => '$P$G'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Matias\\AppData\\Local\\JetBrains\\PhpStorm2021.2\\terminal\\history\\api-history'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'APPDATA' => 'C:\\Users\\Matias\\AppData\\Roaming'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'LOCALAPPDATA' => 'C:\\Users\\Matias\\AppData\\Local'
+    'ProgramData' => 'C:\\ProgramData'
+    'COMPUTERNAME' => 'DESKTOP-MATT'
+    'VBOX_HWVIRTEX_IGNORE_SVM_IN_USE' => '1'
+    'SystemDrive' => 'C:'
+    'USERDOMAIN' => 'DESKTOP-MATT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'OneDrive' => 'C:\\Users\\Matias\\OneDrive'
+    'TMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HOMEPATH' => '\\Users\\Matias'
+    'TEMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'LOGONSERVER' => '\\\\DESKTOP-MATT'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles' => 'C:\\Program Files'
+    'HOMEDRIVE' => 'C:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'windir' => 'C:\\WINDOWS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-MATT'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'Path' => 'C:\\Ruby26-x64\\bin;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp7.4\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\dotnet\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\WireGuard\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Matias\\AppData\\Roaming\\npm;C:\\Users\\Matias\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Matias\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Matias\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\MongoDB\\Server\\4.4\\bin;'
+    'PROCESSOR_LEVEL' => '23'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'NUMBER_OF_PROCESSORS' => '16'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\WINDOWS\\System32'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_REVISION' => '0101'
+    'OS' => 'Windows_NT'
+    'USERPROFILE' => 'C:\\Users\\Matias'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERNAME' => 'Matias'
+    'ProgramW6432' => 'C:\\Program Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'TERM_SESSION_ID' => 'c222b6ce-df2d-4ebc-9341-8eb0f6cae0ae'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'PSModulePath' => 'C:\\Users\\Matias\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW;.CPL'
+    'PHP_SELF' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'SCRIPT_NAME' => '/index-test.php'
+    'SCRIPT_FILENAME' => 'index-test.php'
+    'PATH_TRANSLATED' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1667564168.6804
+    'REQUEST_TIME' => 1667564168
+    'argv' => [
+        0 => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+        1 => 'run'
+        2 => '-n'
+        3 => '-d'
+        4 => 'unit'
+        5 => 'EmailSenderTaskCest'
+    ]
+    'argc' => 6
+    'SHELL_VERBOSITY' => 0
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'HTTPS' => false
+]
+2022-11-04 13:24:13 [-/-][mYgkw-rX][trace][yii\base\Application::bootstrap] Bootstrap with filsh\yii2\oauth2server\Bootstrap::bootstrap()
+2022-11-04 13:24:13 [-/-][mYgkw-rX][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Lib\Connector\Yii2.php:299
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Module\Yii2.php:321
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Subscriber\Module.php:56
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:230
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:59
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\DispatcherWrapper.php:22
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:136
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:105
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\phpunit\phpunit\src\Framework\TestResult.php:424
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Test\Test.php:80
+2022-11-04 13:24:13 [-/-][mYgkw-rX][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'BIN_TARGET' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'COMPOSER_RUNTIME_BIN_DIR' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\'
+    'PROMPT' => '$P$G'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Matias\\AppData\\Local\\JetBrains\\PhpStorm2021.2\\terminal\\history\\api-history'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'APPDATA' => 'C:\\Users\\Matias\\AppData\\Roaming'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'LOCALAPPDATA' => 'C:\\Users\\Matias\\AppData\\Local'
+    'ProgramData' => 'C:\\ProgramData'
+    'COMPUTERNAME' => 'DESKTOP-MATT'
+    'VBOX_HWVIRTEX_IGNORE_SVM_IN_USE' => '1'
+    'SystemDrive' => 'C:'
+    'USERDOMAIN' => 'DESKTOP-MATT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'OneDrive' => 'C:\\Users\\Matias\\OneDrive'
+    'TMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HOMEPATH' => '\\Users\\Matias'
+    'TEMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'LOGONSERVER' => '\\\\DESKTOP-MATT'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles' => 'C:\\Program Files'
+    'HOMEDRIVE' => 'C:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'windir' => 'C:\\WINDOWS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-MATT'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'Path' => 'C:\\Ruby26-x64\\bin;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp7.4\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\dotnet\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\WireGuard\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Matias\\AppData\\Roaming\\npm;C:\\Users\\Matias\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Matias\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Matias\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\MongoDB\\Server\\4.4\\bin;'
+    'PROCESSOR_LEVEL' => '23'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'NUMBER_OF_PROCESSORS' => '16'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\WINDOWS\\System32'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_REVISION' => '0101'
+    'OS' => 'Windows_NT'
+    'USERPROFILE' => 'C:\\Users\\Matias'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERNAME' => 'Matias'
+    'ProgramW6432' => 'C:\\Program Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'TERM_SESSION_ID' => 'c222b6ce-df2d-4ebc-9341-8eb0f6cae0ae'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'PSModulePath' => 'C:\\Users\\Matias\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW;.CPL'
+    'PHP_SELF' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'SCRIPT_NAME' => '/index-test.php'
+    'SCRIPT_FILENAME' => 'index-test.php'
+    'PATH_TRANSLATED' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1667564653.0222
+    'REQUEST_TIME' => 1667564653
+    'argv' => [
+        0 => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+        1 => 'run'
+        2 => '-n'
+        3 => '-d'
+        4 => 'unit'
+        5 => 'EmailSenderTaskCest'
+    ]
+    'argc' => 6
+    'SHELL_VERBOSITY' => 0
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'HTTPS' => false
+]
+2022-11-04 13:25:47 [-/-][bbmvZ9SL][trace][yii\base\Application::bootstrap] Bootstrap with filsh\yii2\oauth2server\Bootstrap::bootstrap()
+2022-11-04 13:25:47 [-/-][bbmvZ9SL][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Lib\Connector\Yii2.php:299
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Module\Yii2.php:321
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Subscriber\Module.php:56
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:230
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:59
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\DispatcherWrapper.php:22
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:136
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:105
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\phpunit\phpunit\src\Framework\TestResult.php:424
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Test\Test.php:80
+2022-11-04 13:25:47 [-/-][bbmvZ9SL][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'BIN_TARGET' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'COMPOSER_RUNTIME_BIN_DIR' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\'
+    'PROMPT' => '$P$G'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Matias\\AppData\\Local\\JetBrains\\PhpStorm2021.2\\terminal\\history\\api-history'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'APPDATA' => 'C:\\Users\\Matias\\AppData\\Roaming'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'LOCALAPPDATA' => 'C:\\Users\\Matias\\AppData\\Local'
+    'ProgramData' => 'C:\\ProgramData'
+    'COMPUTERNAME' => 'DESKTOP-MATT'
+    'VBOX_HWVIRTEX_IGNORE_SVM_IN_USE' => '1'
+    'SystemDrive' => 'C:'
+    'USERDOMAIN' => 'DESKTOP-MATT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'OneDrive' => 'C:\\Users\\Matias\\OneDrive'
+    'TMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HOMEPATH' => '\\Users\\Matias'
+    'TEMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'LOGONSERVER' => '\\\\DESKTOP-MATT'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles' => 'C:\\Program Files'
+    'HOMEDRIVE' => 'C:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'windir' => 'C:\\WINDOWS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-MATT'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'Path' => 'C:\\Ruby26-x64\\bin;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp7.4\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\dotnet\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\WireGuard\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Matias\\AppData\\Roaming\\npm;C:\\Users\\Matias\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Matias\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Matias\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\MongoDB\\Server\\4.4\\bin;'
+    'PROCESSOR_LEVEL' => '23'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'NUMBER_OF_PROCESSORS' => '16'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\WINDOWS\\System32'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_REVISION' => '0101'
+    'OS' => 'Windows_NT'
+    'USERPROFILE' => 'C:\\Users\\Matias'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERNAME' => 'Matias'
+    'ProgramW6432' => 'C:\\Program Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'TERM_SESSION_ID' => 'c222b6ce-df2d-4ebc-9341-8eb0f6cae0ae'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'PSModulePath' => 'C:\\Users\\Matias\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW;.CPL'
+    'PHP_SELF' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'SCRIPT_NAME' => '/index-test.php'
+    'SCRIPT_FILENAME' => 'index-test.php'
+    'PATH_TRANSLATED' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1667564747.0405
+    'REQUEST_TIME' => 1667564747
+    'argv' => [
+        0 => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+        1 => 'run'
+        2 => '-n'
+        3 => '-d'
+        4 => 'unit'
+        5 => 'EmailSenderTaskCest'
+    ]
+    'argc' => 6
+    'SHELL_VERBOSITY' => 0
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'HTTPS' => false
+]
+2022-11-04 16:51:56 [-/-][Eh50H4Kj][trace][yii\base\Application::bootstrap] Bootstrap with filsh\yii2\oauth2server\Bootstrap::bootstrap()
+2022-11-04 16:51:56 [-/-][Eh50H4Kj][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Lib\Connector\Yii2.php:299
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Module\Yii2.php:321
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Subscriber\Module.php:56
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:230
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:59
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\DispatcherWrapper.php:22
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:136
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:105
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\phpunit\phpunit\src\Framework\TestResult.php:424
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Test\Test.php:80
+2022-11-04 16:51:55 [-/-][Eh50H4Kj][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'BIN_TARGET' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'COMPOSER_RUNTIME_BIN_DIR' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\'
+    'PROMPT' => '$P$G'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Matias\\AppData\\Local\\JetBrains\\PhpStorm2021.2\\terminal\\history\\api-history'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'APPDATA' => 'C:\\Users\\Matias\\AppData\\Roaming'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'LOCALAPPDATA' => 'C:\\Users\\Matias\\AppData\\Local'
+    'ProgramData' => 'C:\\ProgramData'
+    'COMPUTERNAME' => 'DESKTOP-MATT'
+    'VBOX_HWVIRTEX_IGNORE_SVM_IN_USE' => '1'
+    'SystemDrive' => 'C:'
+    'USERDOMAIN' => 'DESKTOP-MATT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'OneDrive' => 'C:\\Users\\Matias\\OneDrive'
+    'TMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HOMEPATH' => '\\Users\\Matias'
+    'TEMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'LOGONSERVER' => '\\\\DESKTOP-MATT'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles' => 'C:\\Program Files'
+    'HOMEDRIVE' => 'C:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'windir' => 'C:\\WINDOWS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-MATT'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'Path' => 'C:\\Ruby26-x64\\bin;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp7.4\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\dotnet\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\WireGuard\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Matias\\AppData\\Roaming\\npm;C:\\Users\\Matias\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Matias\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Matias\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\MongoDB\\Server\\4.4\\bin;'
+    'PROCESSOR_LEVEL' => '23'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'NUMBER_OF_PROCESSORS' => '16'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\WINDOWS\\System32'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_REVISION' => '0101'
+    'OS' => 'Windows_NT'
+    'USERPROFILE' => 'C:\\Users\\Matias'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERNAME' => 'Matias'
+    'ProgramW6432' => 'C:\\Program Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'TERM_SESSION_ID' => 'c222b6ce-df2d-4ebc-9341-8eb0f6cae0ae'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'PSModulePath' => 'C:\\Users\\Matias\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW;.CPL'
+    'PHP_SELF' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'SCRIPT_NAME' => '/index-test.php'
+    'SCRIPT_FILENAME' => 'index-test.php'
+    'PATH_TRANSLATED' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1667577115.2051
+    'REQUEST_TIME' => 1667577115
+    'argv' => [
+        0 => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+        1 => 'run'
+        2 => '-n'
+        3 => '-d'
+        4 => 'unit'
+        5 => 'EmailSenderTaskCest'
+    ]
+    'argc' => 6
+    'SHELL_VERBOSITY' => 0
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'HTTPS' => false
+]
+2022-11-04 16:52:23 [-/-][D36eGqAt][trace][yii\base\Application::bootstrap] Bootstrap with filsh\yii2\oauth2server\Bootstrap::bootstrap()
+2022-11-04 16:52:23 [-/-][D36eGqAt][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Lib\Connector\Yii2.php:299
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Module\Yii2.php:321
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Subscriber\Module.php:56
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:230
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:59
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\DispatcherWrapper.php:22
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:136
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:105
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\phpunit\phpunit\src\Framework\TestResult.php:424
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Test\Test.php:80
+2022-11-04 16:52:22 [-/-][D36eGqAt][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'BIN_TARGET' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'COMPOSER_RUNTIME_BIN_DIR' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\'
+    'PROMPT' => '$P$G'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Matias\\AppData\\Local\\JetBrains\\PhpStorm2021.2\\terminal\\history\\api-history'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'APPDATA' => 'C:\\Users\\Matias\\AppData\\Roaming'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'LOCALAPPDATA' => 'C:\\Users\\Matias\\AppData\\Local'
+    'ProgramData' => 'C:\\ProgramData'
+    'COMPUTERNAME' => 'DESKTOP-MATT'
+    'VBOX_HWVIRTEX_IGNORE_SVM_IN_USE' => '1'
+    'SystemDrive' => 'C:'
+    'USERDOMAIN' => 'DESKTOP-MATT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'OneDrive' => 'C:\\Users\\Matias\\OneDrive'
+    'TMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HOMEPATH' => '\\Users\\Matias'
+    'TEMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'LOGONSERVER' => '\\\\DESKTOP-MATT'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles' => 'C:\\Program Files'
+    'HOMEDRIVE' => 'C:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'windir' => 'C:\\WINDOWS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-MATT'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'Path' => 'C:\\Ruby26-x64\\bin;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp7.4\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\dotnet\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\WireGuard\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Matias\\AppData\\Roaming\\npm;C:\\Users\\Matias\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Matias\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Matias\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\MongoDB\\Server\\4.4\\bin;'
+    'PROCESSOR_LEVEL' => '23'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'NUMBER_OF_PROCESSORS' => '16'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\WINDOWS\\System32'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_REVISION' => '0101'
+    'OS' => 'Windows_NT'
+    'USERPROFILE' => 'C:\\Users\\Matias'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERNAME' => 'Matias'
+    'ProgramW6432' => 'C:\\Program Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'TERM_SESSION_ID' => 'c222b6ce-df2d-4ebc-9341-8eb0f6cae0ae'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'PSModulePath' => 'C:\\Users\\Matias\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW;.CPL'
+    'PHP_SELF' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'SCRIPT_NAME' => '/index-test.php'
+    'SCRIPT_FILENAME' => 'index-test.php'
+    'PATH_TRANSLATED' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1667577142.4923
+    'REQUEST_TIME' => 1667577142
+    'argv' => [
+        0 => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+        1 => 'run'
+        2 => '-n'
+        3 => '-d'
+        4 => 'unit'
+        5 => 'EmailSenderTaskCest'
+    ]
+    'argc' => 6
+    'SHELL_VERBOSITY' => 0
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'HTTPS' => false
+]
+2022-11-04 16:52:42 [-/-][XqTgkhhP][trace][yii\base\Application::bootstrap] Bootstrap with filsh\yii2\oauth2server\Bootstrap::bootstrap()
+2022-11-04 16:52:42 [-/-][XqTgkhhP][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Lib\Connector\Yii2.php:299
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Module\Yii2.php:321
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Subscriber\Module.php:56
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:230
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:59
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\DispatcherWrapper.php:22
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:136
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:105
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\phpunit\phpunit\src\Framework\TestResult.php:424
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Test\Test.php:80
+2022-11-04 16:52:42 [-/-][XqTgkhhP][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'BIN_TARGET' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'COMPOSER_RUNTIME_BIN_DIR' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\'
+    'PROMPT' => '$P$G'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Matias\\AppData\\Local\\JetBrains\\PhpStorm2021.2\\terminal\\history\\api-history'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'APPDATA' => 'C:\\Users\\Matias\\AppData\\Roaming'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'LOCALAPPDATA' => 'C:\\Users\\Matias\\AppData\\Local'
+    'ProgramData' => 'C:\\ProgramData'
+    'COMPUTERNAME' => 'DESKTOP-MATT'
+    'VBOX_HWVIRTEX_IGNORE_SVM_IN_USE' => '1'
+    'SystemDrive' => 'C:'
+    'USERDOMAIN' => 'DESKTOP-MATT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'OneDrive' => 'C:\\Users\\Matias\\OneDrive'
+    'TMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HOMEPATH' => '\\Users\\Matias'
+    'TEMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'LOGONSERVER' => '\\\\DESKTOP-MATT'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles' => 'C:\\Program Files'
+    'HOMEDRIVE' => 'C:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'windir' => 'C:\\WINDOWS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-MATT'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'Path' => 'C:\\Ruby26-x64\\bin;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp7.4\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\dotnet\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\WireGuard\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Matias\\AppData\\Roaming\\npm;C:\\Users\\Matias\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Matias\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Matias\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\MongoDB\\Server\\4.4\\bin;'
+    'PROCESSOR_LEVEL' => '23'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'NUMBER_OF_PROCESSORS' => '16'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\WINDOWS\\System32'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_REVISION' => '0101'
+    'OS' => 'Windows_NT'
+    'USERPROFILE' => 'C:\\Users\\Matias'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERNAME' => 'Matias'
+    'ProgramW6432' => 'C:\\Program Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'TERM_SESSION_ID' => 'c222b6ce-df2d-4ebc-9341-8eb0f6cae0ae'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'PSModulePath' => 'C:\\Users\\Matias\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW;.CPL'
+    'PHP_SELF' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'SCRIPT_NAME' => '/index-test.php'
+    'SCRIPT_FILENAME' => 'index-test.php'
+    'PATH_TRANSLATED' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1667577162.0525
+    'REQUEST_TIME' => 1667577162
+    'argv' => [
+        0 => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+        1 => 'run'
+        2 => '-n'
+        3 => '-d'
+        4 => 'unit'
+        5 => 'EmailSenderTaskCest'
+    ]
+    'argc' => 6
+    'SHELL_VERBOSITY' => 0
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'HTTPS' => false
+]
+2022-11-04 16:53:30 [-/-][dE89n_qM][trace][yii\base\Application::bootstrap] Bootstrap with filsh\yii2\oauth2server\Bootstrap::bootstrap()
+2022-11-04 16:53:30 [-/-][dE89n_qM][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Lib\Connector\Yii2.php:299
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Module\Yii2.php:321
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Subscriber\Module.php:56
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:230
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:59
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\DispatcherWrapper.php:22
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:136
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:105
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\phpunit\phpunit\src\Framework\TestResult.php:424
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Test\Test.php:80
+2022-11-04 16:53:29 [-/-][dE89n_qM][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'BIN_TARGET' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'COMPOSER_RUNTIME_BIN_DIR' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\'
+    'PROMPT' => '$P$G'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Matias\\AppData\\Local\\JetBrains\\PhpStorm2021.2\\terminal\\history\\api-history'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'APPDATA' => 'C:\\Users\\Matias\\AppData\\Roaming'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'LOCALAPPDATA' => 'C:\\Users\\Matias\\AppData\\Local'
+    'ProgramData' => 'C:\\ProgramData'
+    'COMPUTERNAME' => 'DESKTOP-MATT'
+    'VBOX_HWVIRTEX_IGNORE_SVM_IN_USE' => '1'
+    'SystemDrive' => 'C:'
+    'USERDOMAIN' => 'DESKTOP-MATT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'OneDrive' => 'C:\\Users\\Matias\\OneDrive'
+    'TMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HOMEPATH' => '\\Users\\Matias'
+    'TEMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'LOGONSERVER' => '\\\\DESKTOP-MATT'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles' => 'C:\\Program Files'
+    'HOMEDRIVE' => 'C:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'windir' => 'C:\\WINDOWS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-MATT'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'Path' => 'C:\\Ruby26-x64\\bin;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp7.4\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\dotnet\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\WireGuard\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Matias\\AppData\\Roaming\\npm;C:\\Users\\Matias\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Matias\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Matias\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\MongoDB\\Server\\4.4\\bin;'
+    'PROCESSOR_LEVEL' => '23'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'NUMBER_OF_PROCESSORS' => '16'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\WINDOWS\\System32'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_REVISION' => '0101'
+    'OS' => 'Windows_NT'
+    'USERPROFILE' => 'C:\\Users\\Matias'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERNAME' => 'Matias'
+    'ProgramW6432' => 'C:\\Program Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'TERM_SESSION_ID' => 'c222b6ce-df2d-4ebc-9341-8eb0f6cae0ae'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'PSModulePath' => 'C:\\Users\\Matias\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW;.CPL'
+    'PHP_SELF' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'SCRIPT_NAME' => '/index-test.php'
+    'SCRIPT_FILENAME' => 'index-test.php'
+    'PATH_TRANSLATED' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1667577209.5582
+    'REQUEST_TIME' => 1667577209
+    'argv' => [
+        0 => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+        1 => 'run'
+        2 => '-n'
+        3 => '-d'
+        4 => 'unit'
+        5 => 'EmailSenderTaskCest'
+    ]
+    'argc' => 6
+    'SHELL_VERBOSITY' => 0
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'HTTPS' => false
+]
+2022-11-04 16:56:29 [-/-][lE7hkIrw][trace][yii\base\Application::bootstrap] Bootstrap with filsh\yii2\oauth2server\Bootstrap::bootstrap()
+2022-11-04 16:56:29 [-/-][lE7hkIrw][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Lib\Connector\Yii2.php:299
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Module\Yii2.php:321
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Subscriber\Module.php:56
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:230
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:59
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\DispatcherWrapper.php:22
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:136
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:105
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\phpunit\phpunit\src\Framework\TestResult.php:424
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Test\Test.php:80
+2022-11-04 16:56:28 [-/-][lE7hkIrw][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'BIN_TARGET' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'COMPOSER_RUNTIME_BIN_DIR' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\'
+    'PROMPT' => '$P$G'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Matias\\AppData\\Local\\JetBrains\\PhpStorm2021.2\\terminal\\history\\api-history'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'APPDATA' => 'C:\\Users\\Matias\\AppData\\Roaming'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'LOCALAPPDATA' => 'C:\\Users\\Matias\\AppData\\Local'
+    'ProgramData' => 'C:\\ProgramData'
+    'COMPUTERNAME' => 'DESKTOP-MATT'
+    'VBOX_HWVIRTEX_IGNORE_SVM_IN_USE' => '1'
+    'SystemDrive' => 'C:'
+    'USERDOMAIN' => 'DESKTOP-MATT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'OneDrive' => 'C:\\Users\\Matias\\OneDrive'
+    'TMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HOMEPATH' => '\\Users\\Matias'
+    'TEMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'LOGONSERVER' => '\\\\DESKTOP-MATT'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles' => 'C:\\Program Files'
+    'HOMEDRIVE' => 'C:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'windir' => 'C:\\WINDOWS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-MATT'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'Path' => 'C:\\Ruby26-x64\\bin;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp7.4\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\dotnet\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\WireGuard\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Matias\\AppData\\Roaming\\npm;C:\\Users\\Matias\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Matias\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Matias\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\MongoDB\\Server\\4.4\\bin;'
+    'PROCESSOR_LEVEL' => '23'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'NUMBER_OF_PROCESSORS' => '16'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\WINDOWS\\System32'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_REVISION' => '0101'
+    'OS' => 'Windows_NT'
+    'USERPROFILE' => 'C:\\Users\\Matias'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERNAME' => 'Matias'
+    'ProgramW6432' => 'C:\\Program Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'TERM_SESSION_ID' => 'c222b6ce-df2d-4ebc-9341-8eb0f6cae0ae'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'PSModulePath' => 'C:\\Users\\Matias\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW;.CPL'
+    'PHP_SELF' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'SCRIPT_NAME' => '/index-test.php'
+    'SCRIPT_FILENAME' => 'index-test.php'
+    'PATH_TRANSLATED' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1667577388.6796
+    'REQUEST_TIME' => 1667577388
+    'argv' => [
+        0 => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+        1 => 'run'
+        2 => '-n'
+        3 => '-d'
+        4 => 'unit'
+        5 => 'EmailSenderTaskCest'
+    ]
+    'argc' => 6
+    'SHELL_VERBOSITY' => 0
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'HTTPS' => false
+]
+2022-11-04 16:58:00 [-/-][_oWJIw9c][trace][yii\base\Application::bootstrap] Bootstrap with filsh\yii2\oauth2server\Bootstrap::bootstrap()
+2022-11-04 16:58:00 [-/-][_oWJIw9c][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Lib\Connector\Yii2.php:299
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Module\Yii2.php:321
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Subscriber\Module.php:56
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:230
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:59
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\DispatcherWrapper.php:22
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:136
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:105
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\phpunit\phpunit\src\Framework\TestResult.php:424
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Test\Test.php:80
+2022-11-04 16:57:59 [-/-][_oWJIw9c][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'BIN_TARGET' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'COMPOSER_RUNTIME_BIN_DIR' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\'
+    'PROMPT' => '$P$G'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Matias\\AppData\\Local\\JetBrains\\PhpStorm2021.2\\terminal\\history\\api-history'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'APPDATA' => 'C:\\Users\\Matias\\AppData\\Roaming'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'LOCALAPPDATA' => 'C:\\Users\\Matias\\AppData\\Local'
+    'ProgramData' => 'C:\\ProgramData'
+    'COMPUTERNAME' => 'DESKTOP-MATT'
+    'VBOX_HWVIRTEX_IGNORE_SVM_IN_USE' => '1'
+    'SystemDrive' => 'C:'
+    'USERDOMAIN' => 'DESKTOP-MATT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'OneDrive' => 'C:\\Users\\Matias\\OneDrive'
+    'TMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HOMEPATH' => '\\Users\\Matias'
+    'TEMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'LOGONSERVER' => '\\\\DESKTOP-MATT'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles' => 'C:\\Program Files'
+    'HOMEDRIVE' => 'C:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'windir' => 'C:\\WINDOWS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-MATT'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'Path' => 'C:\\Ruby26-x64\\bin;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp7.4\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\dotnet\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\WireGuard\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Matias\\AppData\\Roaming\\npm;C:\\Users\\Matias\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Matias\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Matias\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\MongoDB\\Server\\4.4\\bin;'
+    'PROCESSOR_LEVEL' => '23'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'NUMBER_OF_PROCESSORS' => '16'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\WINDOWS\\System32'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_REVISION' => '0101'
+    'OS' => 'Windows_NT'
+    'USERPROFILE' => 'C:\\Users\\Matias'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERNAME' => 'Matias'
+    'ProgramW6432' => 'C:\\Program Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'TERM_SESSION_ID' => 'c222b6ce-df2d-4ebc-9341-8eb0f6cae0ae'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'PSModulePath' => 'C:\\Users\\Matias\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW;.CPL'
+    'PHP_SELF' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'SCRIPT_NAME' => '/index-test.php'
+    'SCRIPT_FILENAME' => 'index-test.php'
+    'PATH_TRANSLATED' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1667577479.4591
+    'REQUEST_TIME' => 1667577479
+    'argv' => [
+        0 => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+        1 => 'run'
+        2 => '-n'
+        3 => '-d'
+        4 => 'unit'
+        5 => 'EmailSenderTaskCest'
+    ]
+    'argc' => 6
+    'SHELL_VERBOSITY' => 0
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'HTTPS' => false
+]
+2022-11-07 11:20:39 [-/-][wMQ7rWNW][trace][yii\base\Application::bootstrap] Bootstrap with filsh\yii2\oauth2server\Bootstrap::bootstrap()
+2022-11-07 11:20:39 [-/-][wMQ7rWNW][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Lib\Connector\Yii2.php:299
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Module\Yii2.php:321
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Subscriber\Module.php:56
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:230
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:59
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\DispatcherWrapper.php:22
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:136
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:105
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\phpunit\phpunit\src\Framework\TestResult.php:424
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Test\Test.php:80
+2022-11-07 11:20:38 [-/-][wMQ7rWNW][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'BIN_TARGET' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'COMPOSER_RUNTIME_BIN_DIR' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\'
+    'PROMPT' => '$P$G'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Matias\\AppData\\Local\\JetBrains\\PhpStorm2021.2\\terminal\\history\\api-history'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'APPDATA' => 'C:\\Users\\Matias\\AppData\\Roaming'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'LOCALAPPDATA' => 'C:\\Users\\Matias\\AppData\\Local'
+    'ProgramData' => 'C:\\ProgramData'
+    'COMPUTERNAME' => 'DESKTOP-MATT'
+    'VBOX_HWVIRTEX_IGNORE_SVM_IN_USE' => '1'
+    'SystemDrive' => 'C:'
+    'USERDOMAIN' => 'DESKTOP-MATT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'OneDrive' => 'C:\\Users\\Matias\\OneDrive'
+    'TMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HOMEPATH' => '\\Users\\Matias'
+    'TEMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'LOGONSERVER' => '\\\\DESKTOP-MATT'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles' => 'C:\\Program Files'
+    'HOMEDRIVE' => 'C:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'windir' => 'C:\\WINDOWS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-MATT'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'Path' => 'C:\\Ruby26-x64\\bin;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp7.4\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\dotnet\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\WireGuard\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Matias\\AppData\\Roaming\\npm;C:\\Users\\Matias\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Matias\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Matias\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\MongoDB\\Server\\4.4\\bin;'
+    'PROCESSOR_LEVEL' => '23'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'NUMBER_OF_PROCESSORS' => '16'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\WINDOWS\\System32'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_REVISION' => '0101'
+    'OS' => 'Windows_NT'
+    'USERPROFILE' => 'C:\\Users\\Matias'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERNAME' => 'Matias'
+    'ProgramW6432' => 'C:\\Program Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'TERM_SESSION_ID' => '9948fcc8-d8b3-48b5-ac1e-452e80fc814f'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'PSModulePath' => 'C:\\Users\\Matias\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW;.CPL'
+    'PHP_SELF' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'SCRIPT_NAME' => '/index-test.php'
+    'SCRIPT_FILENAME' => 'index-test.php'
+    'PATH_TRANSLATED' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1667816438.4394
+    'REQUEST_TIME' => 1667816438
+    'argv' => [
+        0 => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+        1 => 'run'
+        2 => '-n'
+        3 => '-d'
+        4 => 'unit'
+        5 => 'EmailSenderTaskCest'
+    ]
+    'argc' => 6
+    'SHELL_VERBOSITY' => 0
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'HTTPS' => false
+]
+2022-11-07 12:26:05 [-/-][kNI-M_Kq][trace][yii\base\Application::bootstrap] Bootstrap with filsh\yii2\oauth2server\Bootstrap::bootstrap()
+2022-11-07 12:26:05 [-/-][kNI-M_Kq][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Lib\Connector\Yii2.php:299
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Module\Yii2.php:321
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Subscriber\Module.php:56
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:230
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:59
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\DispatcherWrapper.php:22
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:136
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:105
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\phpunit\phpunit\src\Framework\TestResult.php:424
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Test\Test.php:80
+2022-11-07 12:26:05 [-/-][kNI-M_Kq][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'BIN_TARGET' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'COMPOSER_RUNTIME_BIN_DIR' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\'
+    'PROMPT' => '$P$G'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Matias\\AppData\\Local\\JetBrains\\PhpStorm2021.2\\terminal\\history\\api-history'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'APPDATA' => 'C:\\Users\\Matias\\AppData\\Roaming'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'LOCALAPPDATA' => 'C:\\Users\\Matias\\AppData\\Local'
+    'ProgramData' => 'C:\\ProgramData'
+    'COMPUTERNAME' => 'DESKTOP-MATT'
+    'VBOX_HWVIRTEX_IGNORE_SVM_IN_USE' => '1'
+    'SystemDrive' => 'C:'
+    'USERDOMAIN' => 'DESKTOP-MATT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'OneDrive' => 'C:\\Users\\Matias\\OneDrive'
+    'TMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HOMEPATH' => '\\Users\\Matias'
+    'TEMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'LOGONSERVER' => '\\\\DESKTOP-MATT'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles' => 'C:\\Program Files'
+    'HOMEDRIVE' => 'C:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'windir' => 'C:\\WINDOWS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-MATT'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'Path' => 'C:\\Ruby26-x64\\bin;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp7.4\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\dotnet\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\WireGuard\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Matias\\AppData\\Roaming\\npm;C:\\Users\\Matias\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Matias\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Matias\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\MongoDB\\Server\\4.4\\bin;'
+    'PROCESSOR_LEVEL' => '23'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'NUMBER_OF_PROCESSORS' => '16'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\WINDOWS\\System32'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_REVISION' => '0101'
+    'OS' => 'Windows_NT'
+    'USERPROFILE' => 'C:\\Users\\Matias'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERNAME' => 'Matias'
+    'ProgramW6432' => 'C:\\Program Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'TERM_SESSION_ID' => '9948fcc8-d8b3-48b5-ac1e-452e80fc814f'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'PSModulePath' => 'C:\\Users\\Matias\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW;.CPL'
+    'PHP_SELF' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'SCRIPT_NAME' => '/index-test.php'
+    'SCRIPT_FILENAME' => 'index-test.php'
+    'PATH_TRANSLATED' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1667820364.9773
+    'REQUEST_TIME' => 1667820364
+    'argv' => [
+        0 => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+        1 => 'run'
+        2 => '-n'
+        3 => '-d'
+        4 => 'unit'
+        5 => 'EmailSenderTaskCest'
+    ]
+    'argc' => 6
+    'SHELL_VERBOSITY' => 0
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'HTTPS' => false
+]
+2022-11-07 12:37:42 [-/-][QMAGTtVd][trace][yii\base\Application::bootstrap] Bootstrap with filsh\yii2\oauth2server\Bootstrap::bootstrap()
+2022-11-07 12:37:42 [-/-][QMAGTtVd][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Lib\Connector\Yii2.php:299
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Module\Yii2.php:321
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Subscriber\Module.php:56
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:230
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:59
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\DispatcherWrapper.php:22
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:136
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:105
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\phpunit\phpunit\src\Framework\TestResult.php:424
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Test\Test.php:80
+2022-11-07 12:37:41 [-/-][QMAGTtVd][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'BIN_TARGET' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'COMPOSER_RUNTIME_BIN_DIR' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\'
+    'PROMPT' => '$P$G'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Matias\\AppData\\Local\\JetBrains\\PhpStorm2021.2\\terminal\\history\\api-history'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'APPDATA' => 'C:\\Users\\Matias\\AppData\\Roaming'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'LOCALAPPDATA' => 'C:\\Users\\Matias\\AppData\\Local'
+    'ProgramData' => 'C:\\ProgramData'
+    'COMPUTERNAME' => 'DESKTOP-MATT'
+    'VBOX_HWVIRTEX_IGNORE_SVM_IN_USE' => '1'
+    'SystemDrive' => 'C:'
+    'USERDOMAIN' => 'DESKTOP-MATT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'OneDrive' => 'C:\\Users\\Matias\\OneDrive'
+    'TMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HOMEPATH' => '\\Users\\Matias'
+    'TEMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'LOGONSERVER' => '\\\\DESKTOP-MATT'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles' => 'C:\\Program Files'
+    'HOMEDRIVE' => 'C:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'windir' => 'C:\\WINDOWS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-MATT'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'Path' => 'C:\\Ruby26-x64\\bin;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp7.4\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\dotnet\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\WireGuard\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Matias\\AppData\\Roaming\\npm;C:\\Users\\Matias\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Matias\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Matias\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\MongoDB\\Server\\4.4\\bin;'
+    'PROCESSOR_LEVEL' => '23'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'NUMBER_OF_PROCESSORS' => '16'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\WINDOWS\\System32'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_REVISION' => '0101'
+    'OS' => 'Windows_NT'
+    'USERPROFILE' => 'C:\\Users\\Matias'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERNAME' => 'Matias'
+    'ProgramW6432' => 'C:\\Program Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'TERM_SESSION_ID' => '9948fcc8-d8b3-48b5-ac1e-452e80fc814f'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'PSModulePath' => 'C:\\Users\\Matias\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW;.CPL'
+    'PHP_SELF' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'SCRIPT_NAME' => '/index-test.php'
+    'SCRIPT_FILENAME' => 'index-test.php'
+    'PATH_TRANSLATED' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1667821061.461
+    'REQUEST_TIME' => 1667821061
+    'argv' => [
+        0 => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+        1 => 'run'
+        2 => '-n'
+        3 => '-d'
+        4 => 'unit'
+        5 => 'EmailSenderTaskCest'
+    ]
+    'argc' => 6
+    'SHELL_VERBOSITY' => 0
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'HTTPS' => false
+]
+2022-11-07 12:46:08 [-/-][0-s5RCU7][trace][yii\base\Application::bootstrap] Bootstrap with filsh\yii2\oauth2server\Bootstrap::bootstrap()
+2022-11-07 12:46:08 [-/-][0-s5RCU7][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Lib\Connector\Yii2.php:299
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Module\Yii2.php:321
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Subscriber\Module.php:56
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:230
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:59
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\DispatcherWrapper.php:22
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:136
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:105
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\phpunit\phpunit\src\Framework\TestResult.php:424
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Test\Test.php:80
+2022-11-07 12:46:08 [-/-][0-s5RCU7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'BIN_TARGET' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'COMPOSER_RUNTIME_BIN_DIR' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\'
+    'PROMPT' => '$P$G'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Matias\\AppData\\Local\\JetBrains\\PhpStorm2021.2\\terminal\\history\\api-history'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'APPDATA' => 'C:\\Users\\Matias\\AppData\\Roaming'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'LOCALAPPDATA' => 'C:\\Users\\Matias\\AppData\\Local'
+    'ProgramData' => 'C:\\ProgramData'
+    'COMPUTERNAME' => 'DESKTOP-MATT'
+    'VBOX_HWVIRTEX_IGNORE_SVM_IN_USE' => '1'
+    'SystemDrive' => 'C:'
+    'USERDOMAIN' => 'DESKTOP-MATT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'OneDrive' => 'C:\\Users\\Matias\\OneDrive'
+    'TMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HOMEPATH' => '\\Users\\Matias'
+    'TEMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'LOGONSERVER' => '\\\\DESKTOP-MATT'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles' => 'C:\\Program Files'
+    'HOMEDRIVE' => 'C:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'windir' => 'C:\\WINDOWS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-MATT'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'Path' => 'C:\\Ruby26-x64\\bin;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp7.4\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\dotnet\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\WireGuard\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Matias\\AppData\\Roaming\\npm;C:\\Users\\Matias\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Matias\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Matias\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\MongoDB\\Server\\4.4\\bin;'
+    'PROCESSOR_LEVEL' => '23'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'NUMBER_OF_PROCESSORS' => '16'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\WINDOWS\\System32'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_REVISION' => '0101'
+    'OS' => 'Windows_NT'
+    'USERPROFILE' => 'C:\\Users\\Matias'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERNAME' => 'Matias'
+    'ProgramW6432' => 'C:\\Program Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'TERM_SESSION_ID' => '9948fcc8-d8b3-48b5-ac1e-452e80fc814f'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'PSModulePath' => 'C:\\Users\\Matias\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW;.CPL'
+    'PHP_SELF' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'SCRIPT_NAME' => '/index-test.php'
+    'SCRIPT_FILENAME' => 'index-test.php'
+    'PATH_TRANSLATED' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1667821568.0344
+    'REQUEST_TIME' => 1667821568
+    'argv' => [
+        0 => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+        1 => 'run'
+        2 => '-n'
+        3 => '-d'
+        4 => 'unit'
+        5 => 'EmailSenderTaskCest'
+    ]
+    'argc' => 6
+    'SHELL_VERBOSITY' => 0
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'HTTPS' => false
+]
+2022-11-07 12:46:32 [-/-][3s9op6I2][trace][yii\base\Application::bootstrap] Bootstrap with filsh\yii2\oauth2server\Bootstrap::bootstrap()
+2022-11-07 12:46:32 [-/-][3s9op6I2][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Lib\Connector\Yii2.php:299
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Module\Yii2.php:321
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Subscriber\Module.php:56
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:230
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:59
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\DispatcherWrapper.php:22
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:136
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:105
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\phpunit\phpunit\src\Framework\TestResult.php:424
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Test\Test.php:80
+2022-11-07 12:46:31 [-/-][3s9op6I2][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'BIN_TARGET' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'COMPOSER_RUNTIME_BIN_DIR' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\'
+    'PROMPT' => '$P$G'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Matias\\AppData\\Local\\JetBrains\\PhpStorm2021.2\\terminal\\history\\api-history'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'APPDATA' => 'C:\\Users\\Matias\\AppData\\Roaming'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'LOCALAPPDATA' => 'C:\\Users\\Matias\\AppData\\Local'
+    'ProgramData' => 'C:\\ProgramData'
+    'COMPUTERNAME' => 'DESKTOP-MATT'
+    'VBOX_HWVIRTEX_IGNORE_SVM_IN_USE' => '1'
+    'SystemDrive' => 'C:'
+    'USERDOMAIN' => 'DESKTOP-MATT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'OneDrive' => 'C:\\Users\\Matias\\OneDrive'
+    'TMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HOMEPATH' => '\\Users\\Matias'
+    'TEMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'LOGONSERVER' => '\\\\DESKTOP-MATT'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles' => 'C:\\Program Files'
+    'HOMEDRIVE' => 'C:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'windir' => 'C:\\WINDOWS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-MATT'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'Path' => 'C:\\Ruby26-x64\\bin;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp7.4\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\dotnet\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\WireGuard\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Matias\\AppData\\Roaming\\npm;C:\\Users\\Matias\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Matias\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Matias\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\MongoDB\\Server\\4.4\\bin;'
+    'PROCESSOR_LEVEL' => '23'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'NUMBER_OF_PROCESSORS' => '16'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\WINDOWS\\System32'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_REVISION' => '0101'
+    'OS' => 'Windows_NT'
+    'USERPROFILE' => 'C:\\Users\\Matias'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERNAME' => 'Matias'
+    'ProgramW6432' => 'C:\\Program Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'TERM_SESSION_ID' => '9948fcc8-d8b3-48b5-ac1e-452e80fc814f'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'PSModulePath' => 'C:\\Users\\Matias\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW;.CPL'
+    'PHP_SELF' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'SCRIPT_NAME' => '/index-test.php'
+    'SCRIPT_FILENAME' => 'index-test.php'
+    'PATH_TRANSLATED' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1667821591.6744
+    'REQUEST_TIME' => 1667821591
+    'argv' => [
+        0 => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+        1 => 'run'
+        2 => '-n'
+        3 => '-d'
+        4 => 'unit'
+        5 => 'EmailSenderTaskCest'
+    ]
+    'argc' => 6
+    'SHELL_VERBOSITY' => 0
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'HTTPS' => false
+]
+2022-11-07 12:48:32 [-/-][gpyvXRxq][trace][yii\base\Application::bootstrap] Bootstrap with filsh\yii2\oauth2server\Bootstrap::bootstrap()
+2022-11-07 12:48:32 [-/-][gpyvXRxq][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Lib\Connector\Yii2.php:299
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Module\Yii2.php:321
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Subscriber\Module.php:56
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:230
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:59
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\DispatcherWrapper.php:22
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:136
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:105
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\phpunit\phpunit\src\Framework\TestResult.php:424
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Test\Test.php:80
+2022-11-07 12:48:32 [-/-][gpyvXRxq][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'BIN_TARGET' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'COMPOSER_RUNTIME_BIN_DIR' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\'
+    'PROMPT' => '$P$G'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Matias\\AppData\\Local\\JetBrains\\PhpStorm2021.2\\terminal\\history\\api-history'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'APPDATA' => 'C:\\Users\\Matias\\AppData\\Roaming'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'LOCALAPPDATA' => 'C:\\Users\\Matias\\AppData\\Local'
+    'ProgramData' => 'C:\\ProgramData'
+    'COMPUTERNAME' => 'DESKTOP-MATT'
+    'VBOX_HWVIRTEX_IGNORE_SVM_IN_USE' => '1'
+    'SystemDrive' => 'C:'
+    'USERDOMAIN' => 'DESKTOP-MATT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'OneDrive' => 'C:\\Users\\Matias\\OneDrive'
+    'TMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HOMEPATH' => '\\Users\\Matias'
+    'TEMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'LOGONSERVER' => '\\\\DESKTOP-MATT'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles' => 'C:\\Program Files'
+    'HOMEDRIVE' => 'C:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'windir' => 'C:\\WINDOWS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-MATT'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'Path' => 'C:\\Ruby26-x64\\bin;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp7.4\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\dotnet\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\WireGuard\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Matias\\AppData\\Roaming\\npm;C:\\Users\\Matias\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Matias\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Matias\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\MongoDB\\Server\\4.4\\bin;'
+    'PROCESSOR_LEVEL' => '23'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'NUMBER_OF_PROCESSORS' => '16'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\WINDOWS\\System32'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_REVISION' => '0101'
+    'OS' => 'Windows_NT'
+    'USERPROFILE' => 'C:\\Users\\Matias'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERNAME' => 'Matias'
+    'ProgramW6432' => 'C:\\Program Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'TERM_SESSION_ID' => '9948fcc8-d8b3-48b5-ac1e-452e80fc814f'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'PSModulePath' => 'C:\\Users\\Matias\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW;.CPL'
+    'PHP_SELF' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'SCRIPT_NAME' => '/index-test.php'
+    'SCRIPT_FILENAME' => 'index-test.php'
+    'PATH_TRANSLATED' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1667821712.2443
+    'REQUEST_TIME' => 1667821712
+    'argv' => [
+        0 => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+        1 => 'run'
+        2 => '-n'
+        3 => '-d'
+        4 => 'unit'
+        5 => 'EmailSenderTaskCest'
+    ]
+    'argc' => 6
+    'SHELL_VERBOSITY' => 0
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'HTTPS' => false
+]
+2022-11-07 22:07:18 [-/-][ZOmOeOyd][trace][yii\base\Application::bootstrap] Bootstrap with filsh\yii2\oauth2server\Bootstrap::bootstrap()
+2022-11-07 22:07:18 [-/-][ZOmOeOyd][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Lib\Connector\Yii2.php:299
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Module\Yii2.php:321
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Subscriber\Module.php:56
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:230
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:59
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\DispatcherWrapper.php:22
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:136
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:105
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\phpunit\phpunit\src\Framework\TestResult.php:424
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Test\Test.php:80
+2022-11-07 22:07:17 [-/-][ZOmOeOyd][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'BIN_TARGET' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'COMPOSER_RUNTIME_BIN_DIR' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\'
+    'PROMPT' => '$P$G'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Matias\\AppData\\Local\\JetBrains\\PhpStorm2021.2\\terminal\\history\\api-history'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'APPDATA' => 'C:\\Users\\Matias\\AppData\\Roaming'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'LOCALAPPDATA' => 'C:\\Users\\Matias\\AppData\\Local'
+    'ProgramData' => 'C:\\ProgramData'
+    'COMPUTERNAME' => 'DESKTOP-MATT'
+    'VBOX_HWVIRTEX_IGNORE_SVM_IN_USE' => '1'
+    'SystemDrive' => 'C:'
+    'USERDOMAIN' => 'DESKTOP-MATT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'OneDrive' => 'C:\\Users\\Matias\\OneDrive'
+    'TMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HOMEPATH' => '\\Users\\Matias'
+    'TEMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'LOGONSERVER' => '\\\\DESKTOP-MATT'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles' => 'C:\\Program Files'
+    'HOMEDRIVE' => 'C:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'windir' => 'C:\\WINDOWS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-MATT'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'Path' => 'C:\\Ruby26-x64\\bin;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp7.4\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\dotnet\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\WireGuard\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Matias\\AppData\\Roaming\\npm;C:\\Users\\Matias\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Matias\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Matias\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\MongoDB\\Server\\4.4\\bin;'
+    'PROCESSOR_LEVEL' => '23'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'NUMBER_OF_PROCESSORS' => '16'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\WINDOWS\\System32'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_REVISION' => '0101'
+    'OS' => 'Windows_NT'
+    'USERPROFILE' => 'C:\\Users\\Matias'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERNAME' => 'Matias'
+    'ProgramW6432' => 'C:\\Program Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'TERM_SESSION_ID' => '9948fcc8-d8b3-48b5-ac1e-452e80fc814f'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'PSModulePath' => 'C:\\Users\\Matias\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW;.CPL'
+    'PHP_SELF' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'SCRIPT_NAME' => '/index-test.php'
+    'SCRIPT_FILENAME' => 'index-test.php'
+    'PATH_TRANSLATED' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1667855237.6673
+    'REQUEST_TIME' => 1667855237
+    'argv' => [
+        0 => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+        1 => 'run'
+        2 => '-n'
+        3 => '-d'
+        4 => 'unit'
+        5 => 'EmailSenderTaskCest'
+    ]
+    'argc' => 6
+    'SHELL_VERBOSITY' => 0
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'HTTPS' => false
+]
+2022-11-08 10:59:47 [-/-][BSweZ7Hs][trace][yii\base\Application::bootstrap] Bootstrap with filsh\yii2\oauth2server\Bootstrap::bootstrap()
+2022-11-08 10:59:47 [-/-][BSweZ7Hs][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Lib\Connector\Yii2.php:299
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\module-yii2\src\Codeception\Module\Yii2.php:321
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Subscriber\Module.php:56
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:230
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\symfony\event-dispatcher\EventDispatcher.php:59
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\DispatcherWrapper.php:22
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:136
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\phpunit-wrapper\src\Listener.php:105
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\phpunit\phpunit\src\Framework\TestResult.php:424
+    in C:\xampp7.4\htdocs\CLIENTS\SHADOWSTACK\api\vendor\codeception\codeception\src\Codeception\Test\Test.php:80
+2022-11-08 10:59:46 [-/-][BSweZ7Hs][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'BIN_TARGET' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'COMPOSER_RUNTIME_BIN_DIR' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\'
+    'PROMPT' => '$P$G'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\Matias\\AppData\\Local\\JetBrains\\PhpStorm2021.2\\terminal\\history\\api-history'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'APPDATA' => 'C:\\Users\\Matias\\AppData\\Roaming'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'LOCALAPPDATA' => 'C:\\Users\\Matias\\AppData\\Local'
+    'ProgramData' => 'C:\\ProgramData'
+    'COMPUTERNAME' => 'DESKTOP-MATT'
+    'VBOX_HWVIRTEX_IGNORE_SVM_IN_USE' => '1'
+    'SystemDrive' => 'C:'
+    'USERDOMAIN' => 'DESKTOP-MATT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'OneDrive' => 'C:\\Users\\Matias\\OneDrive'
+    'TMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HOMEPATH' => '\\Users\\Matias'
+    'TEMP' => 'C:\\Users\\Matias\\AppData\\Local\\Temp'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'LOGONSERVER' => '\\\\DESKTOP-MATT'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles' => 'C:\\Program Files'
+    'HOMEDRIVE' => 'C:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'windir' => 'C:\\WINDOWS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-MATT'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'Path' => 'C:\\Ruby26-x64\\bin;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp7.4\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\dotnet\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\WireGuard\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Matias\\AppData\\Roaming\\npm;C:\\Users\\Matias\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Matias\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Matias\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\MongoDB\\Server\\4.4\\bin;'
+    'PROCESSOR_LEVEL' => '23'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'NUMBER_OF_PROCESSORS' => '16'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\WINDOWS\\System32'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_REVISION' => '0101'
+    'OS' => 'Windows_NT'
+    'USERPROFILE' => 'C:\\Users\\Matias'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERNAME' => 'Matias'
+    'ProgramW6432' => 'C:\\Program Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'TERM_SESSION_ID' => '4ac44e6f-f872-468b-a1be-2657236505c4'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'PSModulePath' => 'C:\\Users\\Matias\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW;.CPL'
+    'PHP_SELF' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'SCRIPT_NAME' => '/index-test.php'
+    'SCRIPT_FILENAME' => 'index-test.php'
+    'PATH_TRANSLATED' => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1667901586.4428
+    'REQUEST_TIME' => 1667901586
+    'argv' => [
+        0 => 'C:\\xampp7.4\\htdocs\\CLIENTS\\SHADOWSTACK\\api\\vendor\\bin\\/codecept'
+        1 => 'run'
+        2 => '-n'
+        3 => '-d'
+        4 => 'unit'
+        5 => 'EmailSenderTaskCest'
+    ]
+    'argc' => 6
+    'SHELL_VERBOSITY' => 0
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'HTTPS' => false
+]

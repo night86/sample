@@ -1,0 +1,55 @@
+{
+    "name": "yiisoft/yii2-app-advanced",
+    "description": "Yii 2 Advanced Project Template",
+    "keywords": [],
+    "homepage": "http://www.yiiframework.com/",
+    "type": "project",
+    "support": {
+        "issues": "https://github.com/ShadowStackBT/admy/issues",
+        "source": "https://github.com/ShadowStackBT/admy"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4.0",
+        "ext-http": "*",
+        "ext-json": "*",
+        "ext-mongodb": "*",
+        "yiisoft/yii2": "~2.0.45",
+        "yiisoft/yii2-bootstrap4": "~2.0.0",
+        "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
+        "yiisoft/yii2-mongodb": "^2.1",
+        "mongodb/mongodb": "1.5.*",
+        "captbaritone/mailcatcher-codeception-module": "^2.4",
+        "synida/yii2-oauth2-server": "^2.0",
+        "synida/yii2-mongodb-oauth-interface": "dev-main"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "~2.1.0",
+        "yiisoft/yii2-gii": "~2.2.0",
+        "yiisoft/yii2-faker": "~2.0.0",
+        "codeception/codeception": "^4.0",
+        "codeception/module-asserts": "^1.0",
+        "codeception/module-yii2": "^1.0",
+        "codeception/module-mongodb": "^1.1",
+        "codeception/module-filesystem": "^1.0",
+        "codeception/module-rest": "^2.0",
+        "codeception/verify": "~0.5.0 || ~1.1.0",
+        "symfony/browser-kit": ">=2.7 <=4.2.4",
+        "codeception/module-phpbrowser": "^1.0.0"
+    },
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false
+        },
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
